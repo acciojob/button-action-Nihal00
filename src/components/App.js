@@ -7,7 +7,7 @@ const App = () => {
   
   return (
     <div className="App" id="main">
-      <button onClick={setShow("show")}>Action</button>
+      <button onClick={() => setShow("show")}>Action</button>
       <p id="para" className={show}>
         Hello, I've learnt to use the full-stack evaluation tool. This makes me
         so happy
